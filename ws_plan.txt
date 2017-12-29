@@ -37,4 +37,9 @@ Work Search Activity
 		** Not Hired
 
 2. Web Page:
-	*
+	* web responsive page to update work activity
+
+
+3. Laravel:
+	composer create-project laravel/laravel worksearch.dev 5.1.* --prefer-dist
+
