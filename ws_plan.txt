@@ -1,0 +1,40 @@
+Work Search Activity 
+
+1. DB
+
+	* Work Activity Table:
+		** Work Search Week Number
+		** WS Activity ID/Number
+		** Activity Date
+		** Company Name
+		** Company Address, Phone #, Website
+		** Job Title
+		** Job Posting URL
+		** Status: Acknowledged, Pending, Not Hired, No Response
+		** Reference Notes
+
+	* Activity Log Table:
+		** WS Activity ID/Number (linked to work activity table)
+		** Log ID 
+		** Log Date
+		** Activity Type: Online Application, Interview, Submitted/Emailed Resume, Follow-up, Job-leads, Networking, Phone Screening, 
+		** Notes
+
+	* Queries:
+		** Work Search activity detail by date range
+			*** Work Search Week Number
+			*** WS Activity ID
+			*** Company Name
+			*** Company Address, phone & Website
+			*** Job Title
+			*** Status
+			*** Log Date
+			*** Actvity Type
+		** Work Search Summary 
+			*** Activity type count break down by activity Week
+			*** Total Activity Count
+			*** Total Count of Not Hired
+		** Not Hired
+
+2. Web Page:
+	*
